@@ -26,3 +26,15 @@
     color: white !important;
     border-color: #C33149 !important;
 }
+
+a.text-primary {
+    color: #C33149 !important;
+}
+
+a.text-primary:hover {
+    color: #A22522 !important;
+}
+
+.border-primary {
+    border-color: #C33149 !important;
+}
