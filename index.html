@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./css/pill-colors.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/bootstrap-overwrites.css">
     </head>
     <body>
         <section id="navbar-wrapper">
@@ -35,9 +36,9 @@
                 <div class="col-sm-12 col-lg-6 mx-auto">
                     <p class="lead mb-4 kanit-regular">Back-end developer met een passie voor Laravel</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                        <a href="#projecten" class="btn btn-outline-warning btn-lg px-4 me-sm-3">Projecten</a>
-                        <a href="#about" class="btn btn-warning btn-lg px-4 me-sm-3">Over mij</a>
-                        <a href="#other" class="btn btn-outline-warning btn-lg px-4 me-sm-3">Overig</a>
+                        <a href="#projecten" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Projecten</a>
+                        <a href="#about" class="btn btn-primary btn-lg px-4 me-sm-3">Over mij</a>
+                        <a href="#other" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Overig</a>
                     </div>
                 </div>
                 <div id="hero-img-wrapper">
@@ -68,6 +69,66 @@
         <section id="work-experience" class="pt-lg-3">
             <div class="pt-lg-3 my-5 container">
                 <h2 class="pt-lg-3 display-4 kanit-bold lh-1 text-body-emphasis">Werkervaring 📝</h2>
+
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 kanit-light fs-5">
+                        <p>
+                            Dit is een beknopt overzicht van mijn werkervaring, dit omvat ook een stukje stage, aangezien ik bij beide bedrijven stage heb gelopen.
+                        </p>
+                        <p>
+                            Klik binnen de kaartjes op <a href="#" class="badge badge-pill bg-primary  text-decoration-none">Meer informatie <i class="fa-solid fa-arrow-right"></i></a> voor een diepere duik in de werkzaamheden die ik heb vericht en de ervaringen die ik heb opgedaan.
+                        </p>
+                        <p>
+                            Of klik op een van de andere technologieën (bijvoorbeeld <a href="#" class="badge badge-pill bg-laravel text-decoration-none">Laravel</a> of <a href="#" class="badge badge-pill bg-statamic  text-decoration-none">Statamic</a>) om daar meer informatie over te krijgen
+                        </p>
+                    </div>
+                    <hr class="d-lg-none" />
+                    <div class="col-md-12 col-lg-6">
+                        <div class="list-group list-group-radio d-grid gap-2 border-0">
+                            <div class="position-relative">
+                                <input type="radio" class="form-check-input position-absolute top-50 end-0 me-3 fs-5">
+                                <label for="" class="list-group-item py-3 pe-5 rounded border">
+                                    <strong class="fw-semibold kanit-bold">Bertels Holland B.V. <span class="small opacity-75 kanit-light">| Webdeveloper | Sept 2023 - heden</span></strong>
+                                    <span class="d-block small opacity-75 kanit-regular">Laravel webdeveloper voor de verschillende websites en webapps.</span>
+                                    <div class="badge-box">
+                                        <span class="badge badge-pill bg-laravel">Laravel</span>
+                                        <span class="badge badge-pill bg-php">PHP</span>
+                                        <span class="badge badge-pill bg-statamic">Statamic</span>
+                                        <span class="badge badge-pill bg-jira">Jira</span>
+                                        |
+                                        <a href="#" class="badge badge-pill bg-primary">Meer informatie <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="position-relative">
+                                <input type="radio" class="form-check-input position-absolute top-50 end-0 me-3 fs-5">
+                                <label for="" class="list-group-item py-3 pe-5 rounded border">
+                                    <strong class="fw-semibold kanit-bold">Bertels Holland B.V. <span class="small opacity-75 kanit-light">| Junior webdeveloper | 2022 - Aug 2023</span></strong>
+                                    <span class="d-block small opacity-75 kanit-regular">Laravel webdeveloper voor de verschillende websites en webapps.</span>
+                                    <div class="badge-box">
+                                        <span class="badge badge-pill bg-laravel">Laravel</span>
+                                        <span class="badge badge-pill bg-php">PHP</span>
+                                        <span class="badge badge-pill bg-statamic">Statamic</span>
+                                        <span class="badge badge-pill bg-jira">Jira</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="position-relative">
+                                <input type="radio" class="form-check-input position-absolute top-50 end-0 me-3 fs-5">
+                                <label for="" class="list-group-item py-3 pe-5 rounded border">
+                                    <strong class="fw-semibold kanit-bold">RIF-IT Services <span class="small opacity-75 kanit-light">| Stagiaire & Wordpress developer | 2017 - 2022</span></strong>
+                                    <span class="d-block small opacity-75 kanit-regular">Bouwen & onderhouden van Wordpress websites en PHP scripts.</span>
+                                    <div class="badge-box">
+                                        <span class="badge badge-pill bg-wordpress">Wordpress</span>
+                                        <span class="badge badge-pill bg-php">PHP</span>
+                                        |
+                                        <a href="#" class="badge badge-pill bg-primary">Meer informatie <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 

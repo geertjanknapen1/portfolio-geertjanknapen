@@ -6,3 +6,16 @@
 #hero-img-wrapper {
     max-height: 30vh;
 }
+
+.inline-link {
+    color: inherit;
+}
+
+.badge-box {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 0;
+}
