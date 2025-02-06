@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagron shoplocator | Geert-Jan Knapen</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/pill-colors.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/bootstrap-overwrites.css">
+</head>
+<body>
+      <div id="navbar-wrapper">
+        <nav id="navbar" class="d-flex w-25 bg-dark text-white justify-content-center gap-3 align-items-center">
+          <a href="https://github.com/geertjanknapen1/portfolio-geertjanknapen/blob/1cbe3344290ac266b1efd5e84fbeb215f8badef1/assets/resume/CV%20-%20Geert-Jan%20Knapen.pdf" class="icon-url" target="_blank" title="Website source code">
+              <i class="fa-solid fa-2x fa-file-pdf"></i>
+          </a>
+
+          <a class="icon-url" href="https://github.com/geertjanknapen1/" target="_blank">
+            <i class="fa-brands fa-2x fa-square-github"></i>
+          </a>
+
+          <a class="icon-url" href="https://stackoverflow.com/users/9636400/geertjanknapen" target="_blank">
+            <i class="fa-brands fa-2x fa-stack-overflow"></i>
+          </a>
+
+          <a id="theme-toggle" class="icon-url" href="#">
+            <i id="theme-icon" class="fa-solid fa-2x fa-moon"></i>
+          </a>
+        </nav>
+      </div>
+
+    <section id="hero" class="hero-background">
+      <div class="container pt-5">
+          <div class="row">
+              <div class="col-sm-12 col-lg-6">
+                  <div class="px-4 pt-5 my-5 text-center">
+                      <h1 id="title" class="display-4 fw-bold text-body-emphasis kanit-bold">Shoplocator 🏪</h1>
+                      <div class="col-sm-12col-lg-6 mx-auto">
+                          <p class="lead mb-4 kanit-regular">In een oogopslag zien waar jij je producten kunt inslaan!</p>
+                          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                              <a href="../index.html" class="btn btn-outline-primary btn-lg px-4 me-sm-3"><i class="fa-solid fa-caret-left"></i> Terug</a>
+                              <a href="#tech-stack" class="btn btn-primary btn-lg px-4 me-sm-3">Informatie</a>
+                              <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://plagron.com/nl/tools/shoplocator" target="_blank">
+                                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Website
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-6 text-center">
+                <img src="../assets/images/plagron-shoplocator.png" class="border rounded-3 shadow-lg mb-4 w-100 h-100" alt="Example image" loading="lazy">
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <section id="tech-stack" class="">
+      <div class="pt-5 my-5 px-4 container">
+        <h2 class="pt-lg-5 display-4 fw-bold text-body-emphasis kanit-bold">Tech-stack! 🤖</h2>
+        <div class="badge-box">
+            <h3><span class="badge badge-lg badge-pill bg-laravel">Laravel</span></h3>
+            <h3><span class="badge badge-pill bg-php">PHP</span></h3>
+            <h3><span class="badge badge-pill bg-javascript">Javascript / jQuery</span></h3>
+        </div>
+        <div class="badge-box">
+            <h3><span class="badge badge-pill bg-json">JSON</span></h3>
+            <h3><span class="badge badge-pill bg-json">API</span></h3>
+            <h3><span class="badge badge-pill bg-json">Microservice</span></h3>
+        </div>
+        <div class="row pb-5">
+          <p class="fs-4">
+            De Shoplocator is gebouwd binnen de Laravel website van Plagron. Door middel jQuery worden de winkels uit onze zelfgebouwde microservice gehaald. Eens in de zoveel tijd doet deze microservice een verzoek aan de API van Teamleader CRM.
+            Dit verzoek haalt alle winkels voor een bepaald land op en schrijft deze weg in JSON bestanden, zodat we later de API niet meer hoeven te aanroepen. 
+            Vervolgens wordt hier door middel van de Markerclusterer API van Google voor elke winkel een marker geplaatst op het kaartje.
+
+          </p>
+        </div>
+        <div class=" pb-5">
+          <div class="row align-items-center g-lg-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Mijn aandeel 🌟</h1>
+              <p class="col-lg-10 fs-4">
+                De eerste opzet van de shoplocator heb ik niet meegemaakt, maar elke grote refactor / verbetering is geimplementeerd door mij! <br/>
+                Maar, wat is mijn aandeel hier dan in geweest? Hier zie je een greep uit het assortiment, uiteraard niet alles, maar anders past het niet op de pagina 😉
+              </p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="list-group list-group-radio d-grid gap-2 border-0">
+                <div class="position-relative">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid1" value="" checked="">
+                  <label class="list-group-item py-3 pe-5 rounded border" for="listGroupRadioGrid1">
+                    <strong class="fw-semibold">Teamleader CRM microservice 🔗</strong>
+                    <span class="d-block small opacity-75">Om API-verzoeken te beperken en als caching-layer is er gekozen voor een microservice die JSON bestanden wegschrijft.</span>
+                  </label>
+                </div>
+            
+                <div class="position-relative">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid1" value="" checked="">
+                  <label class="list-group-item py-3 pe-5 rounded border" for="listGroupRadioGrid1">
+                    <strong class="fw-semibold">Deprecated Javascript omschrijven naar jQuery 🖊️</strong>
+                    <span class="d-block small opacity-75">De Javascript achter de shoplocator was sterk verouderd, deze heb ik volledig omgeschreven naar jQuery, met de laatste versies van de verschillende Google API's</span>
+                  </label>
+                </div>
+            
+                <div class="position-relative">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid1" value="" checked="">
+                  <label class="list-group-item py-3 pe-5 rounded border" for="listGroupRadioGrid1">
+                    <strong class="fw-semibold">Modulair opzetten 🏗️</strong>
+                    <span class="d-block small opacity-75">De shoplocator moest op meerdere plaatsten beschikbaar kunnen zijn, maar ik vond het beter als het het <a href="https://nl.wikipedia.org/wiki/DRY_(programmeren)" class="inline-link" target="_blank">DRY-principe</a> volgde, dus ik heb de shoplocator ge-refactored naar een modulaire opzet.
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border-top border-primary">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Geert-Jan Knapen</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-2">
+            <a class="icon-url" href="https://www.linkedin.com/in/geert-jan-knapen/" target="_blank">
+              <i class="fa-brands fa-2x fa-linkedin"></i>
+            </a>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
